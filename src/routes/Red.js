@@ -5,10 +5,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 
-import Checkbox from '@mui/material/Checkbox';
-import TextField from '@mui/material/TextField';
 import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 
 import InitiationCheckbox from './InitiationCheckbox';
 
