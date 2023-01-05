@@ -66,9 +66,9 @@ function Red() {
             <h2>Moved off Initiation Line</h2>
             <FormGroup className='initiation-line'>
 
-              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName="Robot 1" />
-              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName="Robot 2" />
-              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName="Robot 3" />
+              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName={redTeamNumbers[0]} />
+              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName={redTeamNumbers[1]} />
+              <InitiationCheckbox num={initiationPoints} setPoints={setInitiationPoints} robotName={redTeamNumbers[2]} />
             </FormGroup>
           </div>
 
